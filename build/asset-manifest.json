@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6577a529.chunk.css",
+    "main.js": "/static/js/main.b9d2af1b.chunk.js",
+    "main.js.map": "/static/js/main.b9d2af1b.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.6493a8b7.js",
+    "runtime-main.js.map": "/static/js/runtime-main.6493a8b7.js.map",
+    "static/js/2.bd3bbddb.chunk.js": "/static/js/2.bd3bbddb.chunk.js",
+    "static/js/2.bd3bbddb.chunk.js.map": "/static/js/2.bd3bbddb.chunk.js.map",
+    "static/js/3.8cfd946a.chunk.js": "/static/js/3.8cfd946a.chunk.js",
+    "static/js/3.8cfd946a.chunk.js.map": "/static/js/3.8cfd946a.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.6577a529.chunk.css.map": "/static/css/main.6577a529.chunk.css.map",
+    "static/js/2.bd3bbddb.chunk.js.LICENSE.txt": "/static/js/2.bd3bbddb.chunk.js.LICENSE.txt",
+    "static/media/Bebidas.03daa0fe.png": "/static/media/Bebidas.03daa0fe.png",
+    "static/media/calentado.e1e81d9e.png": "/static/media/calentado.e1e81d9e.png",
+    "static/media/carne a la plancha.953ed612.jpeg": "/static/media/carne a la plancha.953ed612.jpeg",
+    "static/media/carne asada.fc58021e.png": "/static/media/carne asada.fc58021e.png",
+    "static/media/chorizofinal.bb12d33c.png": "/static/media/chorizofinal.bb12d33c.png",
+    "static/media/index.css": "/static/media/fondo.bc49a1bc.jpg",
+    "static/media/galletas.902a99fc.png": "/static/media/galletas.902a99fc.png",
+    "static/media/logo2.4da86b06.png": "/static/media/logo2.4da86b06.png",
+    "static/media/yogurt.lacteos.7939f7ca.png": "/static/media/yogurt.lacteos.7939f7ca.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6493a8b7.js",
+    "static/js/2.bd3bbddb.chunk.js",
+    "static/css/main.6577a529.chunk.css",
+    "static/js/main.b9d2af1b.chunk.js"
+  ]
+}

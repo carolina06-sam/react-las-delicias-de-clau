@@ -1,7 +1,7 @@
 import Carne from "../API/Imagenes/carne asada.png";
 import yogurt from "../API/Imagenes/yogurt.lacteos.png";
 import Carnicos from "../API/Imagenes/chorizofinal.png";
-import Almuerzo from "../API/Imagenes/galletas.png";
+import galletas from "../API/Imagenes/galletas.png";
 import bebidas from "../API/Imagenes/Bebidas.png";
 import Carne1 from "../API/Imagenes/carne a la plancha.jpeg";
 import Calentado from "../API/Imagenes/calentado.png";
@@ -38,7 +38,7 @@ const PRODUCTS = {
             name: "otros",
             category: "almuerzos",
             styles: {
-                backgroundImage: `url('${Almuerzo}')`,
+                backgroundImage: `url('${galletas}')`,
             },
         },
         /*  {
@@ -184,7 +184,7 @@ const PRODUCTS = {
             description: "(divercidad de alimentos)",
             cost: 12000,
             styles: {
-                backgroundImage: `url('${Almuerzo}')`,
+                backgroundImage: `url('${galletas}')`,
             },
         },
     ],
