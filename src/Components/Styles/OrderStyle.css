@@ -161,16 +161,16 @@
 }
 
 .menu .list-of-items article .button-left:hover {
-    background-color: var(--color-orange);
+    background-color: var(--color-blue);
 }
 .order .articles article .button-right {
     right: 5px;
     top: 2px;
 }
 
-.menu .list-of-items article .button-right:hover {
-    background-color: var(--color-orange);
-}
+/* .menu .list-of-items article .button-right:hover {
+    background-color: var(--color-blue);
+} */
 /*-------------------Resume-------------------*/
 .order .resume {
     height: 30%;
@@ -220,7 +220,7 @@
 }
 
 .order .resume div:last-child a:hover {
-    background-color: var(--color-orange);
+    background-color: var(--color-blue);
 }
 
 .order .resume div:last-child a i {
