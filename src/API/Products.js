@@ -1,26 +1,24 @@
-import Carne from "../API/Imagenes/carne asada.png";
 import yogurt from "../API/Imagenes/yogurt.lacteos.png";
 import Carnicos from "../API/Imagenes/chorizofinal.png";
 import galletas from "../API/Imagenes/galletas.png";
-import bebidas from "../API/Imagenes/Bebidas.png";
-import Carne1 from "../API/Imagenes/carne a la plancha.jpeg";
-import Calentado from "../API/Imagenes/calentado.png";
+import yogurtlogo from "../API/Imagenes/yogurtfinal.png";
+import kumis from "../API/Imagenes/kumis.jpg";
+import queso from "../API/Imagenes/quesofinal.png";
+import tocineta from "../API/Imagenes/tocineta_ahumada.jpeg";
+import ahumando from "../API/Imagenes/jamon Ahumado.jpeg";
+import coctel from "../API/Imagenes/chorizo_coctel.jpeg";
+import parrillero from "../API/Imagenes/chorizoParrillero.jpeg";
+import salchilla from "../API/Imagenes/Salchicha.jpeg";
+import almohabana from "../API/Imagenes/almojabana.jpeg";
+import galletasp from "../API/Imagenes/galletasp.jpeg";
+import bocadillo from "../API/Imagenes/bocadillo.jpeg";
 
 const PRODUCTS = {
     general: [
-        /* {
-            id: "gen5",
-            name: "Lacteos",
-            category: "all",
-            img: "./Imagenes/yogurt.lacteos.png",
-            styles: {
-                backgroundImage: `url('${yogurt}')`,
-            },
-        }, */
         {
             id: "gen1",
-            name: "lacteos",
-            category: "lacteos",
+            name: "Lacteos",
+            category: "Lacteos",
             styles: {
                 backgroundImage: `url('${yogurt}')`,
             },
@@ -28,85 +26,30 @@ const PRODUCTS = {
         {
             id: "gen2",
             name: "Carnicos",
-            category: "desayunos",
+            category: "Carnicos",
             styles: {
                 backgroundImage: `url('${Carnicos}')`,
             },
         },
         {
             id: "gen3",
-            name: "otros",
-            category: "almuerzos",
+            name: "Otros",
+            category: "Otros",
             styles: {
                 backgroundImage: `url('${galletas}')`,
             },
         },
-        /*  {
-            id: "gen4",
-            name: "bebidas",
-            category: "bebidas",
-            styles: {
-                backgroundImage: `url('${bebidas}')`,
-            },
-        }, */
     ],
-    /* all: [
-        {
-            id: "carne1",
-            name: "carne a la plancha",
-            description:
-                "Posta de carne de cerdo o res con patacon o con papitas",
-            cost: 12000,
-            styles: {
-                backgroundImage: `url('${Carne}')`,
-            },
-        },
-        {
-            id: "Carne asada1",
-            name: "carne asada",
-            description: "Pizza con jamon, queso y piña",
-            cost: 12000,
-            styles: {
-                backgroundImage: `url('${Carne}')`,
-            },
-        },
-        {
-            id: "calentado1",
-            name: "calentado",
-            description: "calentado con huevo",
-            cost: 7000,
-            styles: {
-                backgroundImage: `url('${Calentado}')`,
-            },
-        },
-        {
-            id: "calentado21",
-            name: "desayuno",
-            description: "calentado con huevo",
-            cost: 7000,
-            styles: {
-                backgroundImage: `url('${Calentado}')`,
-            },
-        },
-        {
-            id: "menu del dia1",
-            name: "menu del dia",
-            description: "(divercidad de alimentos)",
-            cost: 12000,
-            styles: {
-                backgroundImage: `url('${Almuerzo}')`,
-            },
-        },
-    ],
- */
-    lacteos: [
+
+    Lacteos: [
         {
             id: "lacteos1",
-            name: "yogurt",
+            name: "Yogurt",
             description: "Yogurth diferentes sabores 2 LItros",
             cost: 10500,
+            img: yogurt,
             styles: {
-                backgroundImage: `url('${Carne}')`,
+                backgroundImage: `url('${yogurtlogo}')`,
             },
         },
         {
@@ -115,7 +58,7 @@ const PRODUCTS = {
             description: "Queso semidescremado 1 libra",
             cost: 9000,
             styles: {
-                backgroundImage: `url('${Carne}')`,
+                backgroundImage: `url('${queso}')`,
             },
         },
         {
@@ -124,19 +67,18 @@ const PRODUCTS = {
             description: "2 litros Kumis ",
             cost: 12000,
             styles: {
-                backgroundImage: `url('${Carne1}')`,
+                backgroundImage: `url('${kumis}')`,
             },
         },
     ],
-
-    desayunos: [
+    Carnicos: [
         {
             id: "carnicos1",
             name: "Tocineta ahumada.",
             description: "250 gramos",
             cost: 6000,
             styles: {
-                backgroundImage: `url('${Calentado}')`,
+                backgroundImage: `url('${tocineta}')`,
             },
         },
         {
@@ -145,7 +87,7 @@ const PRODUCTS = {
             description: " 500 gramos",
             cost: 7000,
             styles: {
-                backgroundImage: `url('${Calentado}')`,
+                backgroundImage: `url('${ahumando}')`,
             },
         },
         {
@@ -154,16 +96,16 @@ const PRODUCTS = {
             description: "10 Unidades",
             cost: 6000,
             styles: {
-                backgroundImage: `url('${Calentado}')`,
+                backgroundImage: `url('${coctel}')`,
             },
         },
         {
             id: "carnicos4",
             name: "Chorizo parrillero de cóctel",
-            description: "1500 gramos",
+            description: " 1500 gramos",
             cost: 5500,
             styles: {
-                backgroundImage: `url('${Calentado}')`,
+                backgroundImage: `url('${parrillero}')`,
             },
         },
         {
@@ -172,31 +114,37 @@ const PRODUCTS = {
             description: " 500 gramos",
             cost: 6500,
             styles: {
-                backgroundImage: `url('${Calentado}')`,
+                backgroundImage: `url('${salchilla}')`,
             },
         },
     ],
 
-    almuerzos: [
+    Otros: [
         {
-            id: "menu del dia",
-            name: "menu del dia",
-            description: "(divercidad de alimentos)",
-            cost: 12000,
+            id: "otros1",
+            name: "Galletas polvorosas",
+            description: "60 unidades",
+            cost: 8000,
             styles: {
-                backgroundImage: `url('${galletas}')`,
+                backgroundImage: `url('${galletasp}')`,
             },
         },
-    ],
-
-    bebidas: [
         {
-            id: "jugo naturales",
-            name: "jugos",
-            description: "jugo naturales con leches o agua",
-            cost: 4000,
+            id: "otros2",
+            name: "Bocadillo de guayaba",
+            description: "Una lonja",
+            cost: 2000,
             styles: {
-                backgroundImage: `url('${bebidas}')`,
+                backgroundImage: `url('${bocadillo}')`,
+            },
+        },
+        {
+            id: "otros3",
+            name: "Almojabanas en paquete",
+            description: "10 Unidades",
+            cost: 9000,
+            styles: {
+                backgroundImage: `url('${almohabana}')`,
             },
         },
     ],

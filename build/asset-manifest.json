@@ -1,31 +1,38 @@
 {
   "files": {
-    "main.css": "/static/css/main.6577a529.chunk.css",
-    "main.js": "/static/js/main.b9d2af1b.chunk.js",
-    "main.js.map": "/static/js/main.b9d2af1b.chunk.js.map",
+    "main.css": "/static/css/main.a7cf61ec.chunk.css",
+    "main.js": "/static/js/main.a7181e1d.chunk.js",
+    "main.js.map": "/static/js/main.a7181e1d.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.6493a8b7.js",
     "runtime-main.js.map": "/static/js/runtime-main.6493a8b7.js.map",
-    "static/js/2.bd3bbddb.chunk.js": "/static/js/2.bd3bbddb.chunk.js",
-    "static/js/2.bd3bbddb.chunk.js.map": "/static/js/2.bd3bbddb.chunk.js.map",
+    "static/js/2.15e3e858.chunk.js": "/static/js/2.15e3e858.chunk.js",
+    "static/js/2.15e3e858.chunk.js.map": "/static/js/2.15e3e858.chunk.js.map",
     "static/js/3.8cfd946a.chunk.js": "/static/js/3.8cfd946a.chunk.js",
     "static/js/3.8cfd946a.chunk.js.map": "/static/js/3.8cfd946a.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.6577a529.chunk.css.map": "/static/css/main.6577a529.chunk.css.map",
-    "static/js/2.bd3bbddb.chunk.js.LICENSE.txt": "/static/js/2.bd3bbddb.chunk.js.LICENSE.txt",
-    "static/media/Bebidas.03daa0fe.png": "/static/media/Bebidas.03daa0fe.png",
-    "static/media/calentado.e1e81d9e.png": "/static/media/calentado.e1e81d9e.png",
-    "static/media/carne a la plancha.953ed612.jpeg": "/static/media/carne a la plancha.953ed612.jpeg",
-    "static/media/carne asada.fc58021e.png": "/static/media/carne asada.fc58021e.png",
+    "static/css/main.a7cf61ec.chunk.css.map": "/static/css/main.a7cf61ec.chunk.css.map",
+    "static/js/2.15e3e858.chunk.js.LICENSE.txt": "/static/js/2.15e3e858.chunk.js.LICENSE.txt",
+    "static/media/Salchicha.7a914377.jpeg": "/static/media/Salchicha.7a914377.jpeg",
+    "static/media/almojabana.5bab6c78.jpeg": "/static/media/almojabana.5bab6c78.jpeg",
+    "static/media/bocadillo.cdebaae3.jpeg": "/static/media/bocadillo.cdebaae3.jpeg",
+    "static/media/chorizoParrillero.a5ba4754.jpeg": "/static/media/chorizoParrillero.a5ba4754.jpeg",
+    "static/media/chorizo_coctel.0c58a579.jpeg": "/static/media/chorizo_coctel.0c58a579.jpeg",
     "static/media/chorizofinal.bb12d33c.png": "/static/media/chorizofinal.bb12d33c.png",
     "static/media/index.css": "/static/media/fondo.bc49a1bc.jpg",
     "static/media/galletas.902a99fc.png": "/static/media/galletas.902a99fc.png",
+    "static/media/galletasp.840dff53.jpeg": "/static/media/galletasp.840dff53.jpeg",
+    "static/media/jamon Ahumado.24627ad2.jpeg": "/static/media/jamon Ahumado.24627ad2.jpeg",
+    "static/media/kumis.09c977dc.jpg": "/static/media/kumis.09c977dc.jpg",
     "static/media/logo2.4da86b06.png": "/static/media/logo2.4da86b06.png",
-    "static/media/yogurt.lacteos.7939f7ca.png": "/static/media/yogurt.lacteos.7939f7ca.png"
+    "static/media/quesofinal.fd1fa0e7.png": "/static/media/quesofinal.fd1fa0e7.png",
+    "static/media/tocineta_ahumada.6683b1b9.jpeg": "/static/media/tocineta_ahumada.6683b1b9.jpeg",
+    "static/media/yogurt.lacteos.7939f7ca.png": "/static/media/yogurt.lacteos.7939f7ca.png",
+    "static/media/yogurtfinal.27c10c34.png": "/static/media/yogurtfinal.27c10c34.png"
   },
   "entrypoints": [
     "static/js/runtime-main.6493a8b7.js",
-    "static/js/2.bd3bbddb.chunk.js",
-    "static/css/main.6577a529.chunk.css",
-    "static/js/main.b9d2af1b.chunk.js"
+    "static/js/2.15e3e858.chunk.js",
+    "static/css/main.a7cf61ec.chunk.css",
+    "static/js/main.a7181e1d.chunk.js"
   ]
 }

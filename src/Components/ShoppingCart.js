@@ -5,11 +5,9 @@ import { PRODUCTS } from "../API/Products";
 const JBR = createContext();
 
 function ShoppingCart(props) {
-    const idProducts = PRODUCTS.lacteos
-        .concat(PRODUCTS.desayunos)
-        .concat(PRODUCTS.almuerzos)
-        .concat(PRODUCTS.bebidas)
-        /* .concat(PRODUCTS.all) */
+    const idProducts = PRODUCTS.Lacteos.concat(PRODUCTS.Carnicos)
+        .concat(PRODUCTS.Otros)
+
         .map((e) => (e = e.id));
     let initialStateCart = {};
     for (let i of idProducts) {

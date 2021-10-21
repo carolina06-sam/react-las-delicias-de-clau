@@ -51,6 +51,11 @@ function MenuStyle(props) {
                                 <h4>{e.name}</h4>
                                 <p>{e.description}</p>
                                 <p>$ {e.cost}</p>
+                                {/* <img
+                                    src={e.img}
+                                    alt="logo"
+                                    className={e.styles}
+                                /> */}
                                 <p>{props.amount[e.id]}</p>
                             </div>
                             <div
@@ -85,7 +90,7 @@ function MenuStyle(props) {
             <footer>
                 <div className="networks">
                     <p>Servicio a domicilio </p>
-                    <p>Telefonos: 00000000000 </p>
+                    <p>Telefonos: 3217411274 </p>
                 </div>
             </footer>
         </section>

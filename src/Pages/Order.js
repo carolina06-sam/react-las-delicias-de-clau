@@ -4,62 +4,61 @@ import { JBR } from "../Components/ShoppingCart";
 import OrderStyle from "../Components/OrderStyle";
 
 function Order() {
-  const { PRODUCTS, cart, increase, decrease } = useContext(JBR);
-  
-  let keys = [];
-  let values = [];
+    const { PRODUCTS, cart, increase, decrease } = useContext(JBR);
 
-  Object.values(cart).forEach((value, idx) => {
-    if (value > 0) {
-      keys.push(Object.keys(cart)[idx]);
-      values.push(value);
-    }
-  });
+    let keys = [];
+    let values = [];
 
-  let shoppingList = [];
-
-  Object.keys(PRODUCTS).forEach(category => {
-    PRODUCTS[category].forEach((item, idx) => {
-      keys.forEach(key => {
-        if (key === PRODUCTS[category][idx].id) {
-          shoppingList.push(PRODUCTS[category][idx]);
+    Object.values(cart).forEach((value, idx) => {
+        if (value > 0) {
+            keys.push(Object.keys(cart)[idx]);
+            values.push(value);
         }
-      })
     });
-  });
 
-  let total = 0;
-  shoppingList.forEach((item, idx) => {
-    total += item.cost * values[idx];
-  });
+    let shoppingList = [];
 
-  const PHONE = 573207501413;
-  const request = [];
+    Object.keys(PRODUCTS).forEach((category) => {
+        PRODUCTS[category].forEach((item, idx) => {
+            keys.forEach((key) => {
+                if (key === PRODUCTS[category][idx].id) {
+                    shoppingList.push(PRODUCTS[category][idx]);
+                }
+            });
+        });
+    });
 
-  shoppingList.forEach((item, idx) => {
-    request.push(`Producto ${idx+1}
+    let total = 0;
+    shoppingList.forEach((item, idx) => {
+        total += item.cost * values[idx];
+    });
+
+    const PHONE = 573217411274;
+    const request = [];
+
+    shoppingList.forEach((item, idx) => {
+        request.push(`Producto ${idx + 1}
       ${item.name}: ${values[idx]}
       descripcion: ${item.description}//
     `);
-  });
- 
+    });
 
-  const MESSAGE = `Nuevo pedido:
+    const MESSAGE = `Nuevo pedido:
   
   ${request.join(``)}
   `;
 
-  return (
-    <OrderStyle
-      cartValues={values}
-      shoppingList={shoppingList}
-      increase={increase}
-      decrease={decrease}
-      phone={PHONE}
-      message={MESSAGE}
-      total={total}
-    />
-  )
+    return (
+        <OrderStyle
+            cartValues={values}
+            shoppingList={shoppingList}
+            increase={increase}
+            decrease={decrease}
+            phone={PHONE}
+            message={MESSAGE}
+            total={total}
+        />
+    );
 }
 
 export default Order;

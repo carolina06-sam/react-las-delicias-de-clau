@@ -5,18 +5,18 @@ import Menu from "./Pages/Menu";
 import Order from "./Pages/Order";
 
 function App() {
-  return (
-    <BrowserRouter>
-      <Switch>       
-        <Layout>
-          <ShoppingCart>
-            <Route exact path="/" component={Menu}/>
-            <Route exact path="/order" component={Order}/>
-          </ShoppingCart>
-        </Layout>
-      </Switch>
-    </BrowserRouter>
-  );
+    return (
+        <BrowserRouter>
+            <Switch>
+                <Layout>
+                    <ShoppingCart>
+                        <Route exact path="/" component={Menu} />
+                        <Route exact path="/order" component={Order} />
+                    </ShoppingCart>
+                </Layout>
+            </Switch>
+        </BrowserRouter>
+    );
 }
 
 export default App;
