@@ -42,7 +42,7 @@ function Order() {
     `);
     });
 
-    const MESSAGE = `Nuevo pedido:
+    const MESSAGE = ` Muchas gracias por tu compra tu  pedido es :
   
   ${request.join(``)}
   `;
