@@ -2,7 +2,7 @@ import React, { createContext } from "react";
 
 import { PRODUCTS } from "../API/Products";
 
-const JBR = createContext();
+const Appclau = createContext();
 
 function ShoppingCart(props) {
     const idProducts = PRODUCTS.Lacteos.concat(PRODUCTS.Carnicos)
@@ -33,10 +33,10 @@ function ShoppingCart(props) {
     };
 
     return (
-        <JBR.Provider value={{ PRODUCTS, cart, increase, decrease }}>
+        <Appclau.Provider value={{ PRODUCTS, cart, increase, decrease }}>
             {props.children}
-        </JBR.Provider>
+        </Appclau.Provider>
     );
 }
 
-export { ShoppingCart, JBR };
+export { ShoppingCart, Appclau };

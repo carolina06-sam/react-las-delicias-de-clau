@@ -1,9 +1,9 @@
 import React, { useContext } from "react";
-import { JBR } from "../Components/ShoppingCart";
+import { Appclau } from "../Components/ShoppingCart";
 import MenuStyle from "../Components/MenuStyle";
 
 function Menu() {
-    const { PRODUCTS, cart, increase, decrease } = useContext(JBR);
+    const { PRODUCTS, cart, increase, decrease } = useContext(Appclau);
     const [list, setList] = React.useState(PRODUCTS.Lacteos);
     const [search, setSearch] = React.useState("");
     let filteredList = PRODUCTS.lacteos;
@@ -28,7 +28,7 @@ function Menu() {
           }))
         : (filteredList = list);
 
-    const jbr = Object.values(cart).reduce((accum, curr) => accum + curr);
+    const total = Object.values(cart).reduce((accum, curr) => accum + curr);
 
     return (
         <MenuStyle
@@ -41,7 +41,7 @@ function Menu() {
             increase={increase}
             decrease={decrease}
             amount={cart}
-            totalAmount={jbr}
+            totalAmount={total}
         />
     );
 }

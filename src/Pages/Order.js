@@ -1,10 +1,9 @@
 import React, { useContext } from "react";
-
-import { JBR } from "../Components/ShoppingCart";
+import { Appclau } from "../Components/ShoppingCart";
 import OrderStyle from "../Components/OrderStyle";
 
 function Order() {
-    const { PRODUCTS, cart, increase, decrease } = useContext(JBR);
+    const { PRODUCTS, cart, increase, decrease } = useContext(Appclau);
 
     let keys = [];
     let values = [];
