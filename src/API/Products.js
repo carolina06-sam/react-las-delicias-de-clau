@@ -1,7 +1,7 @@
 import yogurt from "../API/Imagenes/yogurt.lacteos.png";
 import Carnicos from "../API/Imagenes/chorizofinal.png";
 import galletas from "../API/Imagenes/galletas.png";
-import yogurtlogo from "../API/Imagenes/yogurtfinal.png";
+import yogurtlogo from "../API/Imagenes/yogurt.jpeg";
 import kumis from "../API/Imagenes/kumis.jpg";
 import queso from "../API/Imagenes/quesofinal.png";
 import tocineta from "../API/Imagenes/tocineta_ahumada.jpeg";
@@ -46,7 +46,7 @@ const PRODUCTS = {
             id: "lacteos1",
             name: "Yogurt",
             description: "Yogurth diferentes sabores 2 LItros",
-            cost: 10500,
+            cost: 12000,
             img: yogurt,
             styles: {
                 backgroundImage: `url('${yogurtlogo}')`,
@@ -94,7 +94,7 @@ const PRODUCTS = {
             id: "carnicos3",
             name: "Chorizo parrillero mixto",
             description: "10 Unidades",
-            cost: 6000,
+            cost: 7500,
             styles: {
                 backgroundImage: `url('${coctel}')`,
             },
