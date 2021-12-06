@@ -56,7 +56,7 @@ const PRODUCTS = {
             id: "lacteos2",
             name: "Queso",
             description: "Queso semidescremado 1 libra",
-            cost: 9000,
+            cost: 8000,
             styles: {
                 backgroundImage: `url('${queso}')`,
             },
